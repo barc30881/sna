@@ -1,0 +1,91 @@
+
+
+    /* Smartphones */
+    @media only screen and (max-width: 768px) {
+     
+      .content{
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+      }
+      .register {
+        margin-top: 20px;
+
+        font-size: 15px;
+      }
+      .main-h{
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .reg-btn{
+        display: flex;
+        justify-content: space-around;
+        
+      }
+      .reg-btn input{
+        padding: 5px 15px;
+        margin-right: 5px;
+      }
+      .registered{
+        width: 100%;
+        
+      }
+      .main-content{
+        width: 100%;
+        
+      }
+     
+      .main-content form h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .members{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .main-content  form{
+        margin-top: 10px;
+      }
+      .main-content  form input{
+
+        margin: 5px  0px;
+        height: 40px;
+        border-radius: 5px;
+        outline: none;
+        width: 300px;
+        
+        
+        padding: 5px 10px;
+      }
+      .main-content  form input:hover{
+        background-color: rgb(3, 153, 3);
+        color: #fff;
+        font-weight: 800;
+      }
+      .main-content form input[type="button"] {
+        margin-left: 5px;
+      
+  
+    }
+    .content .main-content .form-group1{
+      flex-basis: 0;
+    }
+    .main-content form .main{
+    width: 200px;
+
+    }
+  }
+   
+
+  
+  @media(min-width: 501px) and (max-width: 768px) {
+    .main-content form .main{
+      width: 400px;
+  
+      }
+
+  }
